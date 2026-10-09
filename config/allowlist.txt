@@ -1,0 +1,6 @@
+# Domains that always get verdict ALLOWLISTED.
+# One per line, subdomains match too (mail.example.com matches example.com checks
+# only for exact or subdomain entries — put the apex domain here).
+# Replace with your real corporate domains before use.
+example.com
+company.example

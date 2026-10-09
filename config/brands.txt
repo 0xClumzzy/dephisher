@@ -1,0 +1,30 @@
+# Brands for typosquat / homograph checks (one per line, lowercase).
+# Add your org's brand and the services your staff actually use.
+paypal
+apple
+microsoft
+google
+amazon
+facebook
+instagram
+netflix
+linkedin
+github
+dropbox
+docusign
+office365
+outlook
+onedrive
+whatsapp
+stripe
+coinbase
+chase
+wellsfargo
+icloud
+adobe
+zoom
+slack
+spotify
+uber
+airbnb
+gov

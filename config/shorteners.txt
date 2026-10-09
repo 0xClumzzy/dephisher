@@ -1,0 +1,23 @@
+# URL shorteners - final destination is hidden until unshortened (--enrich).
+bit.ly
+tinyurl.com
+goo.gl
+t.co
+is.gd
+ow.ly
+buff.ly
+cutt.ly
+cutt.us
+rebrand.ly
+t.ly
+s.id
+rb.gy
+shorturl.at
+bc.vc
+adf.ly
+bl.ink
+soo.gd
+v.gd
+cla.gs
+u.to
+po.st
