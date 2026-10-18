@@ -13,8 +13,8 @@ from urllib.parse import unquote
 # --- refanging / defanging -------------------------------------------------
 
 _REFANG_PATTERNS = [
-    (re.compile(r"(?i)\bhxxps?"), "http"),
-    (re.compile(r"(?i)\bfxps?"), "ftp"),
+    (re.compile(r"(?i)\bhxxp(s?)"), lambda m: "http" + m.group(1).lower()),
+    (re.compile(r"(?i)\bfxp(s?)"), lambda m: "ftp" + m.group(1).lower()),
     (re.compile(r"\[\s*\.\s*\]"), "."),
     (re.compile(r"\(\s*\.\s*\)"), "."),
     (re.compile(r"\{\s*\.\s*\}"), "."),
